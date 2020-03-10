@@ -19,7 +19,7 @@
 	RootModule = 'RescueTime.psm1'
 	
 	# Version number of this module.
-	ModuleVersion = '1.0.0.1'
+	ModuleVersion = '1.0.0.2'
 	
 	# ID used to uniquely identify this module
 	GUID = '4d9062a5-fa56-42a7-8f09-902181231dea'
@@ -84,8 +84,9 @@
 		'Get-RTHighlights',
 		'New-RTHighlight',
 		'Start-RTFocusTime',
-		'Stop-FocusTime',
-		'Get-RTFocusTime'
+		'Stop-RTFocusTime',
+		'Get-RTFocusTime',
+		'Add-RTOfflineTime'
 	) #For performance, list functions explicitly
 	
 	# Cmdlets to export from this module
@@ -113,20 +114,27 @@
 		PSData = @{
 			
 			# Tags applied to this module. These help with module discovery in online galleries.
-			# Tags = @()
+			Tags = @("Time","RescueTime","Tracking","Productivity")
 			
 			# A URL to the license for this module.
 			# LicenseUri = ''
 			
 			# A URL to the main website for this project.
-			# ProjectUri = ''
+			ProjectUri = 'https://github.com/daz96050/RescueTime'
 			
 			# A URL to an icon representing this module.
-			# IconUri = ''
+			IconUri = 'https://images-na.ssl-images-amazon.com/images/I/41MuhTV09PL._SX466_.png'
 			
 			# ReleaseNotes of this module
-			# ReleaseNotes = ''
-			
+			ReleaseNotes = @'
+V1.0.0.2
+-Added GitHub Project Site to submit reports and Pull Requests
+-Added Tags
+-Added Icon
+-Fixed issues with the Get-RTFocusTime feed
+-Added 'Add-RTOfflineTime' to add offline time
+-Renamed Start-FocusTime to Start-RTFocusTime
+'@
 		} # End of PSData hashtable
 		
 	} # End of PrivateData hashtable
