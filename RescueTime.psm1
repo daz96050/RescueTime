@@ -2,8 +2,8 @@
 	===========================================================================
 	 Created with: 	SAPIEN Technologies, Inc., PowerShell Studio 2019 v5.6.169
 	 Created on:   	12/9/2019 9:38 AM
-	 Created by:   	dz053479
-	 Organization: 	CernerWorks
+	 Created by:   	Dakota Zinn
+	 Organization: 	
 	 Filename:     	RescueTime.psm1
 	-------------------------------------------------------------------------
 	 Module Name: RescueTime
